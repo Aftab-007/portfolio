@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===============================
+   THEME VARIABLES
+   =============================== */
+
+/* Light theme */
+:root {
+  --bg: 245 247 250;
+  --surface: 255 255 255;
+  --text: 28 31 38;
+  --muted: 90 96 110;
+  --accent: 220 38 38;
+}
+
+/* Dark theme */
+.dark {
+  --bg: 11 14 20;
+  --surface: 21 26 35;
+  --text: 229 231 235;
+  --muted: 156 163 175;
+  --accent: 239 68 68;
+}
+
+/* ===============================
+   GLOBAL BASE STYLES (CRITICAL)
+   =============================== */
+
+html,
+body {
+  background-color: rgb(var(--bg));
+  color: rgb(var(--text));
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Smooth transitions */
+* {
+  transition: background-color 300ms ease, color 300ms ease;
+}
