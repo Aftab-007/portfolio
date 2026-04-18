@@ -10,7 +10,8 @@ export default function Hero() {
           </h1>
 
           <p className="mt-4 text-xl md:text-2xl text-muted">
-            Network Engineer
+            Network Engineer | Fortinet FCP Certified | Firewall, VPN & Network
+            Troubleshooting Specialist
           </p>
 
           <p className="mt-6 text-lg md:text-xl leading-relaxed">
