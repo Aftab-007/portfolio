@@ -1,7 +1,10 @@
 export const tools = [
-  "Fortinet (FortiGate)",
-  "Cisco Networking",
+  "Fortinet (Certified)",
+  "Cisco",
+  "Networking",
+  "Routing & Switching",
   "Linux",
+  "Microsoft Visio",
   "Bash",
   "Python",
   "VMware",

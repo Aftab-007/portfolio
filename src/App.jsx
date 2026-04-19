@@ -1,5 +1,7 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import NetworkBackground from "./components/NetworkBackground";
+import CursorGlow from "./components/CursorGlow";
 
 import Hero from "./sections/Hero";
 import WhatIDo from "./sections/WhatIDo";
@@ -10,9 +12,13 @@ import Contact from "./sections/Contact";
 
 export default function App() {
   return (
-    <div className="bg-bg text-text min-h-screen font-sans">
+    <div className="bg-bg text-text min-h-screen font-sans relative overflow-hidden">
+      <NetworkBackground />
+      <CursorGlow />
+
       <Navbar />
-      <main className="pt-20">
+
+      <main className="pt-20 relative z-10">
         <Hero />
         <WhatIDo />
         <Projects />
@@ -20,6 +26,7 @@ export default function App() {
         <Background />
         <Contact />
       </main>
+
       <Footer />
     </div>
   );
